@@ -9,7 +9,7 @@ ARCHITECTURE:
 [ NGINX ]                                                            [ RESULT ]
    │                                                                     │
    ▼                                                                     │ 
-[ VOTE ] (Replicas: 2)                                                   │ (Reads)                                                     │
+[ VOTE ] (Replicas: 2)                                                   │ (Reads)
    │                                                                     │
    ▼ (Writes)                                                            ▼
 [ REDIS ] ◄────── (Reads) ────── [ WORKER ] ───── (Writes) ─────────► [ DB ] 
